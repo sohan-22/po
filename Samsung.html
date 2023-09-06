@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SAMSUNG </title>
+      <style>
+        .nav{
+            position: fixed; 
+            top: 0; 
+            width: 100%;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: medium;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+        }
+        .product {
+            width: 400px;
+            height: 500px;
+            box-shadow: 10px 10px 20px grey;
+            padding: 20px;
+            background-color: white;
+        }
+        .product_image {
+            width: 100%;
+        }
+        .product_title {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .product_price {
+            margin-bottom: 5px;
+        }
+        .product_price>small {
+            font-size: 16px;
+        }
+        .product_price>span {
+            font-size: 18px;
+        }
+        .product_rating {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .product_rating>p {
+            margin-right: 4px;
+        }
+        .product_button {
+            width: 100%;
+            height: 40px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            transition: 0.3s;
+        }
+        .product_basket {
+            background-color: rgb(97, 146, 23);
+            color: white;
+        }
+        .product_basket:hover{
+             background-color:green;
+             color:white;
+        }
+        .product_buy {
+            background-color: dodgerblue;
+            color: white;
+        }
+        .product_buy:hover {
+            background-color: blue;
+        }
+      </style>
+</head>
+ <body>
+    <div class="nav">
+     <table border="0" width="100%" bgcolor="red" height="8%">
+        <tr>
+            <th width="20%"><a href="Home.html"><font color="white" size="4">HOME</a></font></th>
+        <th width="20%"><a href="samsung.html"><font color="white" size="4">SAMSUNG</a></font></th>
+        <th width="20%"><a href="iphone.html"><font color="white" size="4">APPLE</a></font></th>
+	<th width="20%"><a href="Realme.html"><font color="white" size="4">REALME</a></font>	</th>
+        <th width="20%"><font color="white" size="4">MY<br>ACCOUNT</font></th>
+        </tr>
+     </table>
+    </div>
+ </body>
+ <body>
+    <div class="product">
+        <p class="product_title">Samsung-Galaxy S23 </p>
+        <p class="product_price">
+            <small>₹</small>
+            <span>79,999</span>
+        </p>
+     
+        <img src="samsung-galaxy-s23-5.jpg" alt="phone" class="product_image" height="250" width="200">
+        <button class="product_button product_basket">Add To Basket</button>
+        <button class="product_button product_buy">Buy Now</button>
+    </div>
+ </body>
+    
+ <body>
+    <div class="product">
+        <p class="product_title">samsung galaxy A34  </p>
+        <p class="product_price">
+            <small>₹</small>
+            <span>32,999</span>
+        </p>
+       
+        <img src="A34_4_720x720.webp" alt="phone" class="product_image" height="250" width="200">
+        <button class="product_button product_basket">Add To Basket</button>
+        <button class="product_button product_buy">Buy Now</button>
+    </div>
+   </body>
+
+ <body>
+    <div class="product">
+        <p class="product_title">Samsung Galaxy Z flip5</p>
+        <p class="product_price">
+            <small>₹</small>
+            <span>99,999</span>
+        </p>
+       
+        <img src="flip.jpg" alt="phone" class="product_image" height="250" width="200">
+        <button class="product_button product_basket">Add To Basket</button>
+        <button class="product_button product_buy">Buy Now</button>
+    </div>
+   </body>
+ <body>
+    <div class="product">
+        <p class="product_title">Samsung Galaxy Z fold4</p>
+        <p class="product_price">
+            <small>₹</small>
+            <span>1,54,999</span>
+        </p>
+        
+        <img src="fold.jpg" alt="phone" class="product_image" height="250" width="200">
+        <button class="product_button product_basket">Add To Basket</button>
+        <button class="product_button product_buy">Buy Now</button>
+    </div>
+ </body>
+   <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" typee="text/css"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</html>
